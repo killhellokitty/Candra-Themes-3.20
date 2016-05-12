@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Candra-Theme-3.20
+Type=X-GNOME-Metatheme
+Comment=A Qt-like theme for Gtk
+Encoding=UTF-8
+GtkTheme=Candra-Theme-3.20
+MetacityTheme=Candra-Theme-3.20
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

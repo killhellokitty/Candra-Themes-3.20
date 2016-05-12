@@ -1,0 +1,13 @@
+[Xfdashboard Theme]
+Name=xfdashboard-candra
+Name[es]=xfdashboard-candra
+Name[fr]=xfdashboard-candra
+Comment=Candra theme for xfdashboard
+Comment[es]=Tema de Candra en xfdashboard
+Comment[fr]=Thème Candra à xfdashboard
+Style=xfdashboard-candra.css
+Layout=xfdashboard.xml;xfdashboard-secondary.xml
+Effects=effects.xml
+Author=killhellokitty
+Version=0.4.2
+Screenshot=screenshot-xfdashboard-candra.png

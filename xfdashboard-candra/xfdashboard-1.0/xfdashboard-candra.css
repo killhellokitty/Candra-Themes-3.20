@@ -1,0 +1,173 @@
+@import(xfdashboard.css)
+/* Small icons for minimized windows */
+
+XfdashboardWindowContent
+{
+	include-window-frame: true;
+	unmapped-window-icon-x-fill: false;
+	unmapped-window-icon-y-fill: false;
+	unmapped-window-icon-x-align: 0.5;
+	unmapped-window-icon-y-align: 0.5;
+	unmapped-window-icon-x-scale: 2.0;
+	unmapped-window-icon-y-scale: 2.0;
+	unmapped-window-icon-anchor-point: center;
+}
+
+XfdashboardStageInterface
+{
+	background-color: rgba(0,0,0,0.8);
+	background-fill-color: rgba(0,0,0,0.8);
+	background-image-type: desktop;
+}
+
+/* icons */
+
+XfdashboardQuicklaunch #applications-button
+{
+	icon-name: "view-list-symbolic";
+}
+
+XfdashboardQuicklaunch #applications-button:toggled
+{
+	icon-name: "view-paged-symbolic";
+}
+
+XfdashboardWindowsView
+{
+	view-icon: "view-paged-symbolic";
+}
+
+XfdashboardApplicationsView
+{
+	view-icon: "view-list-symbolic";
+}
+
+XfdashboardSearchView
+{
+	view-icon: "folder-saved-search-symbolic";
+}
+
+/* colors */
+
+#notification, #tooltip
+{
+	background-fill-color: rgba(0,0,0,0.8);
+	outline-color: rgba(255,255,255,0.04);
+}
+
+#quicklaunch, #quicklaunch:drop-target
+{
+	background-fill-color: #00000030;
+	outline-color: rgba(255,255,255,0.06);
+}
+
+#quicklaunch XfdashboardButton:hover
+{
+	background-fill-color: #ffffff16;
+}
+XfdashboardQuicklaunch #applications-button
+{
+	background-fill-color: #ffffff16;
+}
+
+XfdashboardQuicklaunch #trash-button:drop-target
+{
+	background-fill-color: #ff000031;
+}
+
+.drag-actor-XfdashboardLiveWindow:drag-handle
+{
+	background-fill-color: #ffffff16;
+	outline-color: #ffffff22;
+}
+
+#workspace-selector
+{
+	background-fill-color: #00000030;
+	outline-color: rgba(255,255,255,0.06);
+}
+
+XfdashboardLiveWorkspace
+{
+	outline-color: rgba(0, 0, 0, 0.6);
+}
+
+XfdashboardLiveWorkspace:active
+{
+	outline-color: #ffffff60;
+}
+
+XfdashboardScrollbar
+{
+	slider-color: #545454;
+}
+
+XfdashboardScrollbar:hover
+{
+	slider-color: #6a6a6a;
+}
+
+XfdashboardScrollbar:pressed
+{
+	slider-color: #8d8d8d;
+}
+
+XfdashboardSearchView XfdashboardSearchResultContainer XfdashboardButton.result-item:hover,
+XfdashboardApplicationsView XfdashboardButton:hover
+{
+	background-fill-color: #ffffff22;
+}
+
+XfdashboardSearchView XfdashboardSearchResultContainer XfdashboardButton:selected,
+XfdashboardApplicationsView XfdashboardButton:selected
+{
+	background-fill-color: #000000;
+	outline-color: rgba(255,255,255,0.04);
+}
+
+#view-selector XfdashboardToggleButton:toggled
+{
+	background-fill-color: #008080;
+}
+
+
+
+#searchbox.focus
+{
+	outline-color: #0000006;
+	background-fill-color: #ffffff30	;
+	corner-radius: 2.0;
+	hint-text-color: #96969680;
+}
+
+XfdashboardLiveWindow
+{
+	background-type: outline;
+	outline-width: 4.0;
+	outline-color: #008080;
+}
+
+XfdashboardWindowsView XfdashboardLiveWindow:selected,
+XfdashboardWindowsView XfdashboardLiveWindow:hover
+{
+	outline-color: #009494;
+}
+
+XfdashboardLiveWindow:selected XfdashboardButton.title
+{
+	background-fill-color: #006c6c;
+	outline-color: #005959;
+}
+
+XfdashboardLiveWindow:hover XfdashboardButton.title
+{
+	background-fill-color: #008080;
+	outline-color: #006c6c;
+}
+
+/* effects */
+
+#quicklaunch XfdashboardButton
+{
+	effects: ;
+}
